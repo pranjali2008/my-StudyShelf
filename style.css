@@ -1,0 +1,108 @@
+body{
+    background-color: #121212;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+.hero-content p {
+          left: 90px;
+}
+
+.navbar-brand img {
+    width: 70px;
+   
+}
+.middle-right {
+    right: -40px;
+    border-radius: 40px;
+    transform: translateY(-50%);
+    width: 350px;
+   height: auto;
+    
+}
+.categories {
+     margin-top: 100px;
+     height: 300px;
+     
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit:cover;
+}
+#mycard {
+    height: 220px;
+}
+.btns {
+            border-radius: 40px;
+            margin-left: 70px;
+            border: none;
+            width: 70px;
+
+}
+.quiz-card:hover {
+  transform: translateY(-5px);
+  background: #eaf7ff;
+}
+.quiz-card {
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.benefit {
+    height: 250px;
+    padding: 0 30px;
+    border-radius: 30px;
+}
+
+
+.cat-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.cat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+}
+.custom-card {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.custom-card:hover {
+  transform: scale(1.05);
+}
+.popular {
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card{
+    border-radius: 20px;
+}
+.back {
+  text-decoration: none;
+}
+.fa-brands{
+  transition: transform 0.3s ease;
+}
+.fa-brands:hover {
+  transform: scale(1.15);
+}
+
+.hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/dark-banner.jpg') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px;
+    }
+    .btn-custom {
+      background: #00ffae;
+      color: #121212;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+    .btn-custom:hover {
+      transform: scale(1.05);
+    }
